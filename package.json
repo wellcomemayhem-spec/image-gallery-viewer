@@ -1,0 +1,21 @@
+{
+  "name": "image-gallery-viewer",
+  "version": "1.0.0",
+  "description": "A responsive image gallery viewer that offers interactive features like lightbox support, image filtering, and smooth transitions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "lightbox2": "^2.11.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
+}
